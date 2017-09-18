@@ -1,6 +1,5 @@
 // Name        : tttwinner.cpp
-// Author1      Charles Thao cthao19@bu.edu
-// Author2		Priyal Verma priyalv@bu.edu
+// Author      Charles Thao cthao19@bu.edu
 // Version     :0.0.112
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
@@ -16,8 +15,8 @@ int main() {
 	string input;
 	cin>>input;
 	char board [3][3];
-	for (int i=0;i<3;i++){
-		for (int j=0;j<3;j++){
+	for (int i = 0; i < 3; i++){
+		for (int j = 0; j < 3; j++){
 			board[i][j]=input[3*i+j];
 			}
 		}
